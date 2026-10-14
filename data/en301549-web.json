@@ -541,10 +541,10 @@
       }
     ],
     "review": {
-      "status": "pending",
-      "reviewer": null,
-      "date": null,
-      "notes": null
+      "status": "reviewed",
+      "reviewer": "maintainer",
+      "date": "2026-10-15",
+      "notes": "Checked against the linked sources."
     }
   },
   {
