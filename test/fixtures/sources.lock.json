@@ -1,0 +1,47 @@
+{
+  "pinned_on": "2000-01-01",
+  "seed_size": 10,
+  "sources": {
+    "act": {
+      "name": "Synthetic fixture ACT rules",
+      "url": "https://example.org/fixture/act",
+      "repo": "w3c/wcag-act-rules",
+      "commit": "0000000000000000000000000000000000000000",
+      "license": "W3C Document License",
+      "license_url": "https://www.w3.org/copyright/document-license-2023/"
+    },
+    "axe": {
+      "name": "Synthetic fixture engine",
+      "url": "https://example.org/fixture/engine",
+      "repo": "dequelabs/axe-core",
+      "tag": "v0.0.0-fixture",
+      "commit": "0000000000000000000000000000000000000000",
+      "license": "MPL-2.0",
+      "license_url": "https://github.com/dequelabs/axe-core/blob/v4.14.0/LICENSE"
+    },
+    "wcag": {
+      "name": "Synthetic fixture WCAG",
+      "url": "https://example.org/fixture/wcag.json",
+      "published": "2000-01-01",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "license": "W3C Document License",
+      "license_url": "https://www.w3.org/copyright/document-license-2023/"
+    },
+    "etsi_v3_2_1": {
+      "name": "Synthetic fixture standard etsi_v3_2_1",
+      "url": "https://example.org/fixture/etsi_v3_2_1.pdf",
+      "version": "V3.2.1",
+      "published": "2021-03",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "license": "Copyright of the publishers named in the PDF; not redistributed, only the version, date and clause numbers are stored"
+    },
+    "etsi_v4_1_1": {
+      "name": "Synthetic fixture standard etsi_v4_1_1",
+      "url": "https://example.org/fixture/etsi_v4_1_1.pdf",
+      "version": "V4.1.1",
+      "published": "2026-09",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "license": "Copyright of the publishers named in the PDF; not redistributed, only the version, date and clause numbers are stored"
+    }
+  }
+}

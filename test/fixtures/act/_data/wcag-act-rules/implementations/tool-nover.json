@@ -1,0 +1,15 @@
+{
+  "vendor": "Synthetic fixture vendor",
+  "name": "Fixture automated tool without version",
+  "actRuleMapping": [
+    {
+      "ruleId": "fx0004",
+      "ruleName": "Fixture rule fx0004",
+      "ruleApproved": true,
+      "procedureNames": [
+        "nover-four"
+      ],
+      "consistency": "complete"
+    }
+  ]
+}

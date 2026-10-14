@@ -1,0 +1,25 @@
+{
+  "vendor": "Synthetic fixture vendor",
+  "name": "Fixture linter",
+  "version": 2.5,
+  "actRuleMapping": [
+    {
+      "ruleId": "fx0001",
+      "ruleName": "Fixture rule fx0001",
+      "ruleApproved": true,
+      "procedureNames": [
+        "lint-one"
+      ],
+      "consistency": "partial"
+    },
+    {
+      "ruleId": "fx0002",
+      "ruleName": "Fixture rule fx0002",
+      "ruleApproved": true,
+      "procedureNames": [
+        "lint-two"
+      ],
+      "consistency": null
+    }
+  ]
+}

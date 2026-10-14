@@ -1,0 +1,25 @@
+{
+  "vendor": "Synthetic fixture vendor",
+  "name": "Fixture semi-automated tool",
+  "version": "3.0",
+  "actRuleMapping": [
+    {
+      "ruleId": "fx0003",
+      "ruleName": "Fixture rule fx0003",
+      "ruleApproved": true,
+      "procedureNames": [
+        "semi-three"
+      ],
+      "consistency": "complete"
+    },
+    {
+      "ruleId": "fx0008",
+      "ruleName": "Fixture rule fx0008",
+      "ruleApproved": true,
+      "procedureNames": [
+        "semi-eight"
+      ],
+      "consistency": "complete"
+    }
+  ]
+}

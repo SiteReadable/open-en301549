@@ -1,0 +1,80 @@
+{
+  "vendor": "Synthetic fixture vendor",
+  "name": "Fixture automated tool",
+  "version": "1.2.3",
+  "actRuleMapping": [
+    {
+      "ruleId": "fx0001",
+      "ruleName": "Fixture rule fx0001",
+      "ruleApproved": true,
+      "procedureNames": [
+        "auto-one"
+      ],
+      "consistency": "complete"
+    },
+    {
+      "ruleId": "fx0002",
+      "ruleName": "Fixture rule fx0002",
+      "ruleApproved": true,
+      "procedureNames": [
+        "auto-two",
+        "auto-two-b"
+      ],
+      "consistency": "complete"
+    },
+    {
+      "ruleId": "fx0003",
+      "ruleName": "Fixture rule fx0003",
+      "ruleApproved": true,
+      "procedureNames": [
+        "auto-three"
+      ],
+      "consistency": "complete"
+    },
+    {
+      "ruleId": "fx0004",
+      "ruleName": "Fixture rule fx0004",
+      "ruleApproved": true,
+      "procedureNames": [
+        "auto-four"
+      ],
+      "consistency": "partial"
+    },
+    {
+      "ruleId": "fx0005",
+      "ruleName": "Fixture rule fx0005",
+      "ruleApproved": false,
+      "procedureNames": [
+        "auto-five"
+      ],
+      "consistency": "complete"
+    },
+    {
+      "ruleId": "fx0006",
+      "ruleName": "Fixture rule fx0006",
+      "ruleApproved": false,
+      "procedureNames": [
+        "auto-old"
+      ],
+      "consistency": "complete"
+    },
+    {
+      "ruleId": "fx0007",
+      "ruleName": "Fixture rule fx0007",
+      "ruleApproved": true,
+      "procedureNames": [
+        "auto-seven"
+      ],
+      "consistency": "partial"
+    },
+    {
+      "ruleId": "fx0009",
+      "ruleName": "Fixture rule fx0009",
+      "ruleApproved": true,
+      "procedureNames": [
+        "auto-nine"
+      ],
+      "consistency": "complete"
+    }
+  ]
+}

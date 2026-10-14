@@ -1,0 +1,217 @@
+{
+  "act-rules": [
+    {
+      "title": "Fixture rule one \u2013 dash escape test",
+      "permalink": "/standards-guidelines/act/rules/fx0001/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": false,
+      "frontmatter": {
+        "id": "fx0001",
+        "name": "Fixture rule one \u2013 dash escape test",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag20:1.1.1": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "further testing needed",
+            "inapplicable": "further testing needed"
+          },
+          "wcag20:4.1.2": {
+            "secondary": "Synthetic secondary mapping."
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule two",
+      "permalink": "/standards-guidelines/act/rules/fx0002/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": false,
+      "frontmatter": {
+        "id": "fx0002",
+        "name": "Fixture rule two",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag20:1.1.1": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "further testing needed",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule three",
+      "permalink": "/standards-guidelines/act/rules/fx0003/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": false,
+      "frontmatter": {
+        "id": "fx0003",
+        "name": "Fixture rule three",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag21:1.3.4": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "further testing needed",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule four",
+      "permalink": "/standards-guidelines/act/rules/fx0004/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": false,
+      "frontmatter": {
+        "id": "fx0004",
+        "name": "Fixture rule four",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag20:2.4.2": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "satisfied",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule five",
+      "permalink": "/standards-guidelines/act/rules/fx0005/proposed/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": true,
+      "frontmatter": {
+        "id": "fx0005",
+        "name": "Fixture rule five",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag20:3.1.1": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "satisfied",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule six",
+      "permalink": "/standards-guidelines/act/rules/fx0006/proposed/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": true,
+      "proposed": true,
+      "frontmatter": {
+        "id": "fx0006",
+        "name": "Fixture rule six",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag20:1.1.1": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "further testing needed",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule seven",
+      "permalink": "/standards-guidelines/act/rules/fx0007/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": false,
+      "frontmatter": {
+        "id": "fx0007",
+        "name": "Fixture rule seven",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag20:1.4.3": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "further testing needed",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule eight",
+      "permalink": "/standards-guidelines/act/rules/fx0008/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": false,
+      "frontmatter": {
+        "id": "fx0008",
+        "name": "Fixture rule eight",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag20:4.1.2": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "further testing needed",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule nine",
+      "permalink": "/standards-guidelines/act/rules/fx0009/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": false,
+      "frontmatter": {
+        "id": "fx0009",
+        "name": "Fixture rule nine",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag20:2.4.9": {
+            "forConformance": true,
+            "failed": "not satisfied",
+            "passed": "further testing needed",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    },
+    {
+      "title": "Fixture rule ten",
+      "permalink": "/standards-guidelines/act/rules/fx0010/",
+      "successCriteria": [],
+      "wcagTechniques": [],
+      "deprecated": false,
+      "proposed": false,
+      "frontmatter": {
+        "id": "fx0010",
+        "name": "Fixture rule ten",
+        "rule_type": "atomic",
+        "accessibility_requirements": {
+          "wcag-technique:H1": {
+            "forConformance": false,
+            "failed": "not satisfied",
+            "passed": "further testing needed",
+            "inapplicable": "further testing needed"
+          }
+        }
+      }
+    }
+  ]
+}

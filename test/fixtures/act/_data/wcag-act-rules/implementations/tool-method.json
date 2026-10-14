@@ -1,0 +1,16 @@
+{
+  "vendor": "Synthetic fixture vendor",
+  "name": "Fixture methodology",
+  "version": "1",
+  "actRuleMapping": [
+    {
+      "ruleId": "fx0008",
+      "ruleName": "Fixture rule fx0008",
+      "ruleApproved": true,
+      "procedureNames": [
+        "method-eight"
+      ],
+      "consistency": "complete"
+    }
+  ]
+}

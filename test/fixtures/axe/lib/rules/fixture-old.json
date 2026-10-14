@@ -1,0 +1,12 @@
+{
+  "id": "fixture-old",
+  "tags": [
+    "EN-301-549",
+    "EN-9.1.1.1",
+    "deprecated"
+  ],
+  "enabled": false,
+  "metadata": {
+    "description": "Synthetic fixture rule."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "WCAG2:fixture-alpha": {
+    "num": "1.1.1",
+    "scId": "WCAG2:fixture-alpha",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG21/Understanding/fixture-alpha.html",
+    "handle": "Fixture Alpha",
+    "level": "A"
+  },
+  "WCAG2:fixture-bravo": {
+    "num": "1.3.4",
+    "scId": "WCAG2:fixture-bravo",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG21/Understanding/fixture-bravo.html",
+    "handle": "Fixture Bravo",
+    "level": "AA"
+  },
+  "WCAG2:fixture-charlie": {
+    "num": "1.4.3",
+    "scId": "WCAG2:fixture-charlie",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG21/Understanding/fixture-charlie.html",
+    "handle": "Fixture Charlie",
+    "level": "AA"
+  },
+  "WCAG2:fixture-delta": {
+    "num": "2.4.2",
+    "scId": "WCAG2:fixture-delta",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG21/Understanding/fixture-delta.html",
+    "handle": "Fixture Delta",
+    "level": "A"
+  },
+  "WCAG2:fixture-echo": {
+    "num": "2.4.9",
+    "scId": "WCAG2:fixture-echo",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG21/Understanding/fixture-echo.html",
+    "handle": "Fixture Echo",
+    "level": "AAA"
+  },
+  "WCAG2:fixture-foxtrot": {
+    "num": "3.1.1",
+    "scId": "WCAG2:fixture-foxtrot",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG21/Understanding/fixture-foxtrot.html",
+    "handle": "Fixture Foxtrot",
+    "level": "A"
+  },
+  "WCAG2:fixture-golf": {
+    "num": "4.1.2",
+    "scId": "WCAG2:fixture-golf",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG21/Understanding/fixture-golf.html",
+    "handle": "Fixture Golf",
+    "level": "A"
+  }
+}

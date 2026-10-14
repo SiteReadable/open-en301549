@@ -1,0 +1,27 @@
+### Synthetic fixture with the same shape as act-implementations.yml
+# - name: Example commented out
+#   uniqueKey: commented-out
+#   type: Automated Tool
+
+- name: Fixture automated tool
+  vendor: Synthetic fixture vendor
+  uniqueKey: tool-auto
+  type: Automated tool
+  standards:
+    - WCAG 2.1 Level A, AA
+
+- name: Fixture linter
+  uniqueKey: tool-lint
+  type: Linter
+
+- name: "Fixture automated tool without version"
+  uniqueKey: tool-nover
+  type: Automated tool
+
+- name: Fixture semi-automated tool
+  uniqueKey: tool-semi
+  type: Semi-automated tool
+
+- name: Fixture methodology
+  uniqueKey: tool-method
+  type: Test methodology

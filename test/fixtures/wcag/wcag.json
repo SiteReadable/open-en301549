@@ -1,0 +1,150 @@
+{
+  "principles": [
+    {
+      "id": "principle-1",
+      "num": "1",
+      "handle": "Principle 1",
+      "guidelines": [
+        {
+          "id": "guideline-1.1",
+          "num": "1.1",
+          "handle": "Guideline 1.1",
+          "successcriteria": [
+            {
+              "id": "fixture-alpha",
+              "num": "1.1.1",
+              "handle": "Fixture Alpha",
+              "title": "Synthetic fixture text.",
+              "versions": [
+                "2.0",
+                "2.1"
+              ],
+              "level": "A"
+            }
+          ]
+        },
+        {
+          "id": "guideline-1.3",
+          "num": "1.3",
+          "handle": "Guideline 1.3",
+          "successcriteria": [
+            {
+              "id": "fixture-bravo",
+              "num": "1.3.4",
+              "handle": "Fixture Bravo",
+              "title": "Synthetic fixture text.",
+              "versions": [
+                "2.1"
+              ],
+              "level": "AA"
+            }
+          ]
+        },
+        {
+          "id": "guideline-1.4",
+          "num": "1.4",
+          "handle": "Guideline 1.4",
+          "successcriteria": [
+            {
+              "id": "fixture-charlie",
+              "num": "1.4.3",
+              "handle": "Fixture Charlie",
+              "title": "Synthetic fixture text.",
+              "versions": [
+                "2.0",
+                "2.1"
+              ],
+              "level": "AA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "principle-2",
+      "num": "2",
+      "handle": "Principle 2",
+      "guidelines": [
+        {
+          "id": "guideline-2.4",
+          "num": "2.4",
+          "handle": "Guideline 2.4",
+          "successcriteria": [
+            {
+              "id": "fixture-delta",
+              "num": "2.4.2",
+              "handle": "Fixture Delta",
+              "title": "Synthetic fixture text.",
+              "versions": [
+                "2.0",
+                "2.1"
+              ],
+              "level": "A"
+            },
+            {
+              "id": "fixture-echo",
+              "num": "2.4.9",
+              "handle": "Fixture Echo",
+              "title": "Synthetic fixture text.",
+              "versions": [
+                "2.0",
+                "2.1"
+              ],
+              "level": "AAA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "principle-3",
+      "num": "3",
+      "handle": "Principle 3",
+      "guidelines": [
+        {
+          "id": "guideline-3.1",
+          "num": "3.1",
+          "handle": "Guideline 3.1",
+          "successcriteria": [
+            {
+              "id": "fixture-foxtrot",
+              "num": "3.1.1",
+              "handle": "Fixture Foxtrot",
+              "title": "Synthetic fixture text.",
+              "versions": [
+                "2.0",
+                "2.1"
+              ],
+              "level": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "principle-4",
+      "num": "4",
+      "handle": "Principle 4",
+      "guidelines": [
+        {
+          "id": "guideline-4.1",
+          "num": "4.1",
+          "handle": "Guideline 4.1",
+          "successcriteria": [
+            {
+              "id": "fixture-golf",
+              "num": "4.1.2",
+              "handle": "Fixture Golf",
+              "title": "Synthetic fixture text.",
+              "versions": [
+                "2.0",
+                "2.1"
+              ],
+              "level": "A"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

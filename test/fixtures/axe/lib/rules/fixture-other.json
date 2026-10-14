@@ -1,0 +1,9 @@
+{
+  "id": "fixture-other",
+  "tags": [
+    "wcag2aaa"
+  ],
+  "metadata": {
+    "description": "Synthetic fixture rule."
+  }
+}
