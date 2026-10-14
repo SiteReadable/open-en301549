@@ -1,0 +1,47 @@
+{
+  "pinned_on": "2026-10-14",
+  "seed_size": 10,
+  "sources": {
+    "act": {
+      "name": "W3C ACT rules (w3c/wcag-act-rules)",
+      "url": "https://github.com/w3c/wcag-act-rules",
+      "repo": "w3c/wcag-act-rules",
+      "commit": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+      "license": "W3C Document License",
+      "license_url": "https://www.w3.org/copyright/document-license-2023/"
+    },
+    "axe": {
+      "name": "axe-core (dequelabs/axe-core)",
+      "url": "https://github.com/dequelabs/axe-core",
+      "repo": "dequelabs/axe-core",
+      "tag": "v4.14.0",
+      "commit": "e797173108eadfa4355fe06af331791734e1757f",
+      "license": "MPL-2.0",
+      "license_url": "https://github.com/dequelabs/axe-core/blob/v4.14.0/LICENSE"
+    },
+    "wcag": {
+      "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+      "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+      "published": "2026-09-03",
+      "sha256": "fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+      "license": "W3C Document License",
+      "license_url": "https://www.w3.org/copyright/document-license-2023/"
+    },
+    "etsi_v3_2_1": {
+      "name": "ETSI EN 301 549 V3.2.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+      "version": "V3.2.1",
+      "published": "2021-03",
+      "sha256": "1eee3a1841a94567da8e59f3b19a782ce9ab081c386b6a2a763b8cde13ff5b49",
+      "license": "Copyright of the publishers named in the PDF; not redistributed, only the version, date and clause numbers are stored"
+    },
+    "etsi_v4_1_1": {
+      "name": "ETSI EN 301 549 V4.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf",
+      "version": "V4.1.1",
+      "published": "2026-09",
+      "sha256": "636914c5c18dc58cf7716b8935502f1471de05caf5e1e6ae32469eed929cb824",
+      "license": "Copyright of the publishers named in the PDF; not redistributed, only the version, date and clause numbers are stored"
+    }
+  }
+}

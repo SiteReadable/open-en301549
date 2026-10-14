@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/SiteReadable/open-en301549/blob/main/schema/entry.schema.json",
+  "title": "open-en301549 entry",
+  "description": "One web-relevant clause of EN 301 549, mapped to its WCAG success criterion, W3C ACT rules and automated engine rules. Every value is derived by scripts/build.mjs from the pinned sources, except review, which only scripts/review.mjs sets to reviewed.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "clause",
+    "en_versions",
+    "title",
+    "wcag",
+    "act_rules",
+    "engines",
+    "automation",
+    "automation_basis",
+    "manual_test",
+    "null_reasons",
+    "sources",
+    "review"
+  ],
+  "properties": {
+    "clause": {
+      "description": "EN 301 549 clause number. Clause 9.x.y.z corresponds to WCAG 2.1 success criterion x.y.z for web content.",
+      "type": "string",
+      "pattern": "^9\\.[1-4]\\.[0-9]{1,2}\\.[0-9]{1,2}$"
+    },
+    "en_versions": {
+      "description": "Whether the clause exists in each EN 301 549 version.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["3.2.1", "4.1.1"],
+      "properties": {
+        "3.2.1": { "type": "boolean" },
+        "4.1.1": { "enum": [true, false, "unverified"] }
+      }
+    },
+    "title": {
+      "description": "W3C short name (handle) of the WCAG success criterion.",
+      "type": "string"
+    },
+    "wcag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sc", "level", "versions", "understanding_url"],
+      "properties": {
+        "sc": { "type": "string", "pattern": "^[1-4]\\.[0-9]{1,2}\\.[0-9]{1,2}$" },
+        "level": { "enum": ["A", "AA", "AAA"] },
+        "versions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "enum": ["2.0", "2.1"] }
+        },
+        "understanding_url": { "type": "string", "pattern": "^https://www\\.w3\\.org/" }
+      }
+    },
+    "act_rules": {
+      "description": "Non-deprecated ACT rules that map to the success criterion for conformance (secondary mappings excluded).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "url", "approved", "outcomes"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]{6}$" },
+          "name": { "type": "string" },
+          "url": { "type": "string", "pattern": "^https://www\\.w3\\.org/WAI/" },
+          "approved": { "type": "boolean" },
+          "outcomes": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["passed", "failed", "inapplicable"],
+            "properties": {
+              "passed": { "enum": ["satisfied", "not satisfied", "further testing needed"] },
+              "failed": { "enum": ["satisfied", "not satisfied", "further testing needed"] },
+              "inapplicable": { "enum": ["satisfied", "not satisfied", "further testing needed"] }
+            }
+          }
+        }
+      }
+    },
+    "engines": {
+      "description": "Rules of automated engines. via act-implementation: from W3C ACT implementation reports (automated tools and linters only). via engine-tags: from EN-9.x.y.z tags in the engine's own rule files.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["engine", "engine_version", "rule_id", "via", "act_rule_id", "consistency"],
+        "properties": {
+          "engine": { "type": "string" },
+          "engine_version": { "type": ["string", "null"] },
+          "rule_id": { "type": "string" },
+          "via": { "enum": ["act-implementation", "engine-tags"] },
+          "act_rule_id": { "type": ["string", "null"] },
+          "consistency": { "enum": ["complete", "partial", null] }
+        }
+      }
+    },
+    "automation": {
+      "description": "Derived by decision table v1, see README.",
+      "enum": ["automatable", "partial", "manual"]
+    },
+    "automation_basis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rule", "act_rules", "tools"],
+      "properties": {
+        "rule": { "type": "string" },
+        "act_rules": { "type": "array", "items": { "type": "string" } },
+        "tools": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "manual_test": {
+      "description": "Reserved for manual test steps, a planned milestone.",
+      "type": "null"
+    },
+    "null_reasons": {
+      "description": "For each derived field that is null, why. Keys name the field; review fields are not covered because they stay null until a human review.",
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "url", "commit_or_version", "retrieved"],
+        "properties": {
+          "name": { "type": "string" },
+          "url": { "type": "string", "pattern": "^https://" },
+          "commit_or_version": { "type": "string", "pattern": "^\\S+$" },
+          "retrieved": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "reviewer", "date", "notes"],
+      "properties": {
+        "status": { "enum": ["pending", "reviewed"] },
+        "reviewer": { "type": ["string", "null"] },
+        "date": { "type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
