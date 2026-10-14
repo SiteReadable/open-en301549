@@ -1,0 +1,3897 @@
+[
+  {
+    "clause": "9.1.1.1",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Non-text Content",
+    "wcag": {
+      "sc": "1.1.1",
+      "level": "A",
+      "versions": [
+        "2.0",
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html"
+    },
+    "act_rules": [
+      {
+        "id": "23a2a8",
+        "name": "Image has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/23a2a8/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "59796f",
+        "name": "Image button has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/59796f/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "7d6734",
+        "name": "SVG element with explicit role has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/7d6734/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "8fc3b6",
+        "name": "Object element rendering non-text content has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/8fc3b6/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "e88epe",
+        "name": "Image not in the accessibility tree is decorative",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/e88epe/proposed/",
+        "approved": false,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "qt1vmo",
+        "name": "Image accessible name is descriptive",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/qt1vmo/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "text-alternatives/img-alt",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "text-alternatives/input-image-alt",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "text-alternatives/object-alt",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "text-alternatives/role-img-alt",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "text-alternatives/svg-img-alt",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r2",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r28",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r43",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r63",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "image-alt",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "input-image-alt",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "object-alt",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "role-img-alt",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "svg-img-alt",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "aria_id_unique:Pass_0,Fail_1",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "imagebutton_alt_exists:Pass_0,Pass_1,Pass_2,Fail",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "img_alt_valid:pass,fail_blank_alt,fail_no_alt,fail_blank_title",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "partial"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "object_text_exists:pass,fail_no_text_alternative",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Image button has accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Image has accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Object element has non-empty accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "svg element with explicit role has accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlImgNoAlt",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlInputImageNoAlt",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlObjectNoAccName",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlSvgElementNoName",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E860",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E860",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "P865",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "W889",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E860",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E860",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P865",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "W889",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "image_button_without_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "image_missing_alt",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "image_not_decorative",
+        "via": "act-implementation",
+        "act_rule_id": "e88epe",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "object_missing_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "svg_without_alt",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "23a2a8-test",
+        "via": "act-implementation",
+        "act_rule_id": "23a2a8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "59796f-test",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "7d6734-test",
+        "via": "act-implementation",
+        "act_rule_id": "7d6734",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "8fc3b6-test",
+        "via": "act-implementation",
+        "act_rule_id": "8fc3b6",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-meter-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-progressbar-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "image-alt",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "input-image-alt",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "object-alt",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "role-img-alt",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "svg-img-alt",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "23a2a8",
+        "59796f",
+        "7d6734",
+        "8fc3b6"
+      ],
+      "tools": [
+        "accesslint-core",
+        "alfa",
+        "axe-core",
+        "equal-access",
+        "qualweb",
+        "sortsite",
+        "total-validator",
+        "total-validator-browser",
+        "usablenet-aqa-auto",
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.1.3.1",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Info and Relationships",
+    "wcag": {
+      "sc": "1.3.1",
+      "level": "A",
+      "versions": [
+        "2.0",
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html"
+    },
+    "act_rules": [
+      {
+        "id": "a25f45",
+        "name": "Headers attribute specified on a cell refers to cells in the same table element",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/a25f45/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "bc4a75",
+        "name": "ARIA required owned elements",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/bc4a75/proposed/",
+        "approved": false,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "d0f69e",
+        "name": "Table header cell has assigned cells",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/d0f69e/proposed/",
+        "approved": false,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "ff89c9",
+        "name": "ARIA required context role",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/ff89c9/proposed/",
+        "approved": false,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "adaptable/td-headers-attr",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r42",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r45",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r46",
+        "via": "act-implementation",
+        "act_rule_id": "d0f69e",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r68",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "partial"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "aria-required-children",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "partial"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "aria-required-children",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "aria-required-parent",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "td-headers-attr",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "th-has-data-cells",
+        "via": "act-implementation",
+        "act_rule_id": "d0f69e",
+        "consistency": "partial"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "aria_parent_required:Pass_0,Fail_1",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "table_headers_ref_valid:Pass_0,Fail_1,Fail_2,Fail_3,Fail_4",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "ARIA required context role",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "ARIA required owned elements",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "All table header cells have assigned data cells",
+        "via": "act-implementation",
+        "act_rule_id": "d0f69e",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Headers attribute specified on a cell refers to cells in the same table element",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlTableMissingCells",
+        "via": "act-implementation",
+        "act_rule_id": "d0f69e",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccWcag2-F90-1",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "W3cHtml5AriaRequiredChildRole-*",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "W3cHtml5AriaRequiredParentRoles-*",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E8952",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E962",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E963",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E963",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "P963",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "W887",
+        "via": "act-implementation",
+        "act_rule_id": "d0f69e",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E8952",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E962",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E963",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E963",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P963",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "W887",
+        "via": "act-implementation",
+        "act_rule_id": "d0f69e",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "aria_child_wrong",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "td_headers_check",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "a25f45-test",
+        "via": "act-implementation",
+        "act_rule_id": "a25f45",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "bc4a75-test",
+        "via": "act-implementation",
+        "act_rule_id": "bc4a75",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "d0f69e-test",
+        "via": "act-implementation",
+        "act_rule_id": "d0f69e",
+        "consistency": "partial"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "ff89c9-test",
+        "via": "act-implementation",
+        "act_rule_id": "ff89c9",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-hidden-body",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-required-children",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-required-parent",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "definition-list",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "dlitem",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "list",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "listitem",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "td-headers-attr",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "th-has-data-cells",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "a25f45"
+      ],
+      "tools": [
+        "accesslint-core",
+        "alfa",
+        "axe-core",
+        "equal-access",
+        "qualweb",
+        "sortsite",
+        "total-validator",
+        "total-validator-browser",
+        "usablenet-aqa-auto",
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.1.3.4",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Orientation",
+    "wcag": {
+      "sc": "1.3.4",
+      "level": "AA",
+      "versions": [
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/orientation.html"
+    },
+    "act_rules": [
+      {
+        "id": "b33eff",
+        "name": "Orientation of the page is not restricted using CSS transforms",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/b33eff/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "adaptable/orientation-lock",
+        "via": "act-implementation",
+        "act_rule_id": "b33eff",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r44",
+        "via": "act-implementation",
+        "act_rule_id": "b33eff",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "element_orientation_unlocked:pass,fail_locked",
+        "via": "act-implementation",
+        "act_rule_id": "b33eff",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Orientation of the page is not restricted using CSS transform property",
+        "via": "act-implementation",
+        "act_rule_id": "b33eff",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccCssTransformOrientationLock",
+        "via": "act-implementation",
+        "act_rule_id": "b33eff",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "I918",
+        "via": "act-implementation",
+        "act_rule_id": "b33eff",
+        "consistency": "partial"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "I918",
+        "via": "act-implementation",
+        "act_rule_id": "b33eff",
+        "consistency": "partial"
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "b33eff"
+      ],
+      "tools": [
+        "accesslint-core",
+        "alfa",
+        "equal-access",
+        "qualweb",
+        "sortsite",
+        "total-validator",
+        "total-validator-browser"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.1.3.5",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Identify Input Purpose",
+    "wcag": {
+      "sc": "1.3.5",
+      "level": "AA",
+      "versions": [
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html"
+    },
+    "act_rules": [
+      {
+        "id": "73f2c2",
+        "name": "Autocomplete attribute has valid value",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/73f2c2/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "adaptable/autocomplete-valid",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r10",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "autocomplete-valid",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "autocomplete attribute has valid value",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlAutocompleteInvalid",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E9152",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E9152",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "invalid_autocomplete_token",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "73f2c2-test",
+        "via": "act-implementation",
+        "act_rule_id": "73f2c2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "autocomplete-valid",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "73f2c2"
+      ],
+      "tools": [
+        "accesslint-core",
+        "alfa",
+        "axe-core",
+        "qualweb",
+        "sortsite",
+        "total-validator",
+        "total-validator-browser",
+        "usablenet-aqa-auto",
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.1.4.3",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Contrast (Minimum)",
+    "wcag": {
+      "sc": "1.4.3",
+      "level": "AA",
+      "versions": [
+        "2.0",
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+    },
+    "act_rules": [
+      {
+        "id": "afw4f7",
+        "name": "Text has minimum contrast",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/afw4f7/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "distinguishable/color-contrast",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "partial"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "color-contrast",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "text_contrast_sufficient:pass,fail_contrast,potential_same_color,potential_graphic_background,potential_text_shadow",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Text has minimum contrast",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlContrastMinimum",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "I863",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "I864",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P9121",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "color_error_normal",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "afw4f7-test",
+        "via": "act-implementation",
+        "act_rule_id": "afw4f7",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "color-contrast",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "afw4f7"
+      ],
+      "tools": [
+        "accesslint-core",
+        "axe-core",
+        "equal-access",
+        "qualweb",
+        "sortsite",
+        "total-validator-browser",
+        "usablenet-aqa-auto",
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.1.4.12",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Text Spacing",
+    "wcag": {
+      "sc": "1.4.12",
+      "level": "AA",
+      "versions": [
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html"
+    },
+    "act_rules": [
+      {
+        "id": "24afc2",
+        "name": "Important letter spacing in style attributes is wide enough",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/24afc2/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "78fd32",
+        "name": "Important line height in style attributes is wide enough",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/78fd32/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "9e45ec",
+        "name": "Important word spacing in style attributes is wide enough",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/9e45ec/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "distinguishable/letter-spacing",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "distinguishable/line-height",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "distinguishable/word-spacing",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r91",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r92",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "text_spacing_valid:pass,fail_letter_spacing_style,fail_word_spacing_style,fail_line_height_style",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "text_spacing_valid:pass,fail_letter_spacing_style,fail_word_spacing_style,fail_line_height_style",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "text_spacing_valid:pass,fail_letter_spacing_style,fail_word_spacing_style,fail_line_height_style",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Letter spacing in style attributes is not !important",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "partial"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Line height in style attributes is not !important",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "partial"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Word spacing in style attributes is not !important",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "partial"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccCssLetterSpacingImportant",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccCssLineHeightImportant",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccCssWordSpacingImportant",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "P917",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "P917",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "P917",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "W917",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "W917",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "W917",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P917",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P917",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P917",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "W917",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "W917",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "W917",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "wrong_letter_spacing",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "wrong_line_height",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "wrong_word_spacing",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "24afc2-test",
+        "via": "act-implementation",
+        "act_rule_id": "24afc2",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "78fd32-test",
+        "via": "act-implementation",
+        "act_rule_id": "78fd32",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "9e45ec-test",
+        "via": "act-implementation",
+        "act_rule_id": "9e45ec",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "avoid-inline-spacing",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "24afc2",
+        "78fd32",
+        "9e45ec"
+      ],
+      "tools": [
+        "accesslint-core",
+        "alfa",
+        "equal-access",
+        "qualweb",
+        "sortsite",
+        "total-validator",
+        "total-validator-browser",
+        "usablenet-aqa-auto",
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.2.1.1",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Keyboard",
+    "wcag": {
+      "sc": "2.1.1",
+      "level": "A",
+      "versions": [
+        "2.0",
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html"
+    },
+    "act_rules": [
+      {
+        "id": "0ssw9k",
+        "name": "Scrollable content can be reached with sequential focus navigation",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/0ssw9k/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "akn7bn",
+        "name": "Iframe with interactive elements is not excluded from tab-order",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/akn7bn/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "keyboard-accessible/scrollable-region",
+        "via": "act-implementation",
+        "act_rule_id": "0ssw9k",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "labels-and-names/frame-focusable-content",
+        "via": "act-implementation",
+        "act_rule_id": "akn7bn",
+        "consistency": "partial"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "scrollable-region-focusable",
+        "via": "act-implementation",
+        "act_rule_id": "0ssw9k",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Scrollable element is keyboard accessible",
+        "via": "act-implementation",
+        "act_rule_id": "0ssw9k",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "iframe with negative tabindex has no interactive elements",
+        "via": "act-implementation",
+        "act_rule_id": "akn7bn",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccCssScrollableNoFocus",
+        "via": "act-implementation",
+        "act_rule_id": "0ssw9k",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlIframeTabindexInteractive",
+        "via": "act-implementation",
+        "act_rule_id": "akn7bn",
+        "consistency": "partial"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E9603",
+        "via": "act-implementation",
+        "act_rule_id": "akn7bn",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E9603",
+        "via": "act-implementation",
+        "act_rule_id": "akn7bn",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "W900",
+        "via": "act-implementation",
+        "act_rule_id": "0ssw9k",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "focusable_elements_inside_iframe",
+        "via": "act-implementation",
+        "act_rule_id": "akn7bn",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "scrollable_content_focus",
+        "via": "act-implementation",
+        "act_rule_id": "0ssw9k",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "0ssw9k-test",
+        "via": "act-implementation",
+        "act_rule_id": "0ssw9k",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "akn7bn-test",
+        "via": "act-implementation",
+        "act_rule_id": "akn7bn",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "frame-focusable-content",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "scrollable-region-focusable",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "server-side-image-map",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "0ssw9k",
+        "akn7bn"
+      ],
+      "tools": [
+        "accesslint-core",
+        "axe-core",
+        "qualweb",
+        "sortsite",
+        "total-validator",
+        "total-validator-browser",
+        "usablenet-aqa-auto",
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.2.4.2",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Page Titled",
+    "wcag": {
+      "sc": "2.4.2",
+      "level": "A",
+      "versions": [
+        "2.0",
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html"
+    },
+    "act_rules": [
+      {
+        "id": "2779a5",
+        "name": "HTML page has non-empty title",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/2779a5/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "c4a8a4",
+        "name": "HTML page title is descriptive",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/c4a8a4/",
+        "approved": true,
+        "outcomes": {
+          "passed": "satisfied",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "navigable/document-title",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r1",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r114",
+        "via": "act-implementation",
+        "act_rule_id": "c4a8a4",
+        "consistency": "partial"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "document-title",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "page_title_exists:Pass_0,Fail_1,Fail_2,Fail_3",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "HTML Page has a title",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "partial"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccPageNoTitle",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E869",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E870",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E869",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E870",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "page_missing_title",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "2779a5-test",
+        "via": "act-implementation",
+        "act_rule_id": "2779a5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "c4a8a4-test",
+        "via": "act-implementation",
+        "act_rule_id": "c4a8a4",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "document-title",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "automatable",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "c4a8a4"
+      ],
+      "tools": [
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.3.1.1",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Language of Page",
+    "wcag": {
+      "sc": "3.1.1",
+      "level": "A",
+      "versions": [
+        "2.0",
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html"
+    },
+    "act_rules": [
+      {
+        "id": "b5c3f8",
+        "name": "HTML page has lang attribute",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/b5c3f8/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "bf051a",
+        "name": "HTML page lang attribute has valid language tag",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/bf051a/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "ucwvc8",
+        "name": "HTML page language subtag matches default language",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/ucwvc8/proposed/",
+        "approved": false,
+        "outcomes": {
+          "passed": "satisfied",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "readable/html-has-lang",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "readable/html-lang-valid",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r4",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r5",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "html-has-lang",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "html-lang-valid",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "html_lang_exists:Pass_0,Fail_3",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "html_lang_valid:Pass_0,Fail_1",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "html_lang_valid:Pass_0,Fail_1,Fail_2,Fail_3",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "HTML has lang attribute",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "partial"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Validity of HTML Lang attribute",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "partial"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlPageLangInvalid",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccPageLangMissing",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E9661",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "P967",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E9661",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P967",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "lang_not_match_language",
+        "via": "act-implementation",
+        "act_rule_id": "ucwvc8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "page_invalid_lang",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "page_missing_lang",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "b5c3f8-test",
+        "via": "act-implementation",
+        "act_rule_id": "b5c3f8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "bf051a-test",
+        "via": "act-implementation",
+        "act_rule_id": "bf051a",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "ucwvc8-test",
+        "via": "act-implementation",
+        "act_rule_id": "ucwvc8",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "html-has-lang",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "html-lang-valid",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "html-xml-lang-mismatch",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "b5c3f8",
+        "bf051a"
+      ],
+      "tools": [
+        "accesslint-core",
+        "alfa",
+        "axe-core",
+        "equal-access",
+        "qualweb",
+        "sortsite",
+        "total-validator",
+        "total-validator-browser",
+        "usablenet-aqa-auto",
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  },
+  {
+    "clause": "9.4.1.2",
+    "en_versions": {
+      "3.2.1": true,
+      "4.1.1": "unverified"
+    },
+    "title": "Name, Role, Value",
+    "wcag": {
+      "sc": "4.1.2",
+      "level": "A",
+      "versions": [
+        "2.0",
+        "2.1"
+      ],
+      "understanding_url": "https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html"
+    },
+    "act_rules": [
+      {
+        "id": "2t702h",
+        "name": "Summary element has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/2t702h/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "307n5z",
+        "name": "Element with presentational children has no focusable content",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/307n5z/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "4b1c6c",
+        "name": "Iframe elements with identical accessible names have equivalent purpose",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/4b1c6c/proposed/",
+        "approved": false,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "59796f",
+        "name": "Image button has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/59796f/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "6cfa84",
+        "name": "Element with aria-hidden has no content in sequential focus navigation",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/6cfa84/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "97a4e1",
+        "name": "Button has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/97a4e1/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "c487ae",
+        "name": "Link has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/c487ae/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "cae760",
+        "name": "Iframe element has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/cae760/proposed/",
+        "approved": false,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "e086e5",
+        "name": "Form field has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/e086e5/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      },
+      {
+        "id": "m6b1q3",
+        "name": "Menuitem has non-empty accessible name",
+        "url": "https://www.w3.org/WAI/standards-guidelines/act/rules/m6b1q3/",
+        "approved": true,
+        "outcomes": {
+          "passed": "further testing needed",
+          "failed": "not satisfied",
+          "inapplicable": "further testing needed"
+        }
+      }
+    ],
+    "engines": [
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "aria/aria-hidden-focus",
+        "via": "act-implementation",
+        "act_rule_id": "6cfa84",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "aria/presentational-children-focusable",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "labels-and-names/aria-command-name",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "labels-and-names/button-name",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "labels-and-names/form-label",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "labels-and-names/summary-name",
+        "via": "act-implementation",
+        "act_rule_id": "2t702h",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "navigable/link-name",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "partial"
+      },
+      {
+        "engine": "accesslint-core",
+        "engine_version": "0.21.0",
+        "rule_id": "text-alternatives/input-image-alt",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r11",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r116",
+        "via": "act-implementation",
+        "act_rule_id": "2t702h",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r12",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r13",
+        "via": "act-implementation",
+        "act_rule_id": "cae760",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r15",
+        "via": "act-implementation",
+        "act_rule_id": "4b1c6c",
+        "consistency": "partial"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r28",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r8",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r90",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "alfa",
+        "engine_version": "0.118.0",
+        "rule_id": "sia-r94",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "area-alt",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "aria-command-name",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "aria-hidden-focus",
+        "via": "act-implementation",
+        "act_rule_id": "6cfa84",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "aria-input-field-name",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "button-name",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "button-name",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "frame-title",
+        "via": "act-implementation",
+        "act_rule_id": "cae760",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "frame-title-unique",
+        "via": "act-implementation",
+        "act_rule_id": "4b1c6c",
+        "consistency": "partial"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "input-image-alt",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "label",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "link-name",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "nested-interactive",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.10.2",
+        "rule_id": "select-name",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "a_text_purpose:pass,fail_acc_name",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "aria_descendant_valid:pass,potential_child_implicit_role,recommendation_no_impact_role,fail_child_explicit_role",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "aria_id_unique:Pass_0,Fail_1",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "aria_widget_labelled:Pass_0,Fail_1",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "imagebutton_alt_exists:Pass_0,Pass_1,Pass_2,Fail",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "input_label_exists:Pass_0,Fail_1,Fail_2",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "equal-access",
+        "engine_version": "3.1.42-rc.0",
+        "rule_id": "input_label_exists:Pass_0,Fail_1,Fail_2",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Button has accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Element with `aria-hidden` has no focusable content",
+        "via": "act-implementation",
+        "act_rule_id": "6cfa84",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Element with presentational children has no focusable content",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Form control has accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Image button has accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Link has accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "Menuitem has non-empty accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "`iframe` elements with identical accessible names have equivalent purpose",
+        "via": "act-implementation",
+        "act_rule_id": "4b1c6c",
+        "consistency": "partial"
+      },
+      {
+        "engine": "qualweb",
+        "engine_version": "3.0.0",
+        "rule_id": "iframe element has accessible name",
+        "via": "act-implementation",
+        "act_rule_id": "cae760",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccAriaHiddenFocusableContent",
+        "via": "act-implementation",
+        "act_rule_id": "6cfa84",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccAriaMenuitemBlank",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccAriaPresentationalChildrenFocusable",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlButtonBlank",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlControlLabelMissing",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlFrameTitleMissing",
+        "via": "act-implementation",
+        "act_rule_id": "cae760",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlInputImageNoAlt",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlLinkTextBlank",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "sortsite",
+        "engine_version": "6.55",
+        "rule_id": "AccHtmlSummaryBlank",
+        "via": "act-implementation",
+        "act_rule_id": "2t702h",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E8661",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E8781",
+        "via": "act-implementation",
+        "act_rule_id": "cae760",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E885",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E950",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E951",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E951",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E953",
+        "via": "act-implementation",
+        "act_rule_id": "2t702h",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E9542",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "E9602",
+        "via": "act-implementation",
+        "act_rule_id": "6cfa84",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "I873",
+        "via": "act-implementation",
+        "act_rule_id": "4b1c6c",
+        "consistency": "partial"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "P861",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "P871",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator",
+        "engine_version": "17.4.0",
+        "rule_id": "W889",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E8661",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E8781",
+        "via": "act-implementation",
+        "act_rule_id": "cae760",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E885",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E950",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E951",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E951",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E953",
+        "via": "act-implementation",
+        "act_rule_id": "2t702h",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E9542",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "E9602",
+        "via": "act-implementation",
+        "act_rule_id": "6cfa84",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "I873",
+        "via": "act-implementation",
+        "act_rule_id": "4b1c6c",
+        "consistency": "partial"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P861",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "P871",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "total-validator-browser",
+        "engine_version": "17.4.0",
+        "rule_id": "W889",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "aria_hidden_focusable_descendants",
+        "via": "act-implementation",
+        "act_rule_id": "6cfa84",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "control_without_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "focusable_presentational_children",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "iframe_without_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "cae760",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "image_button_without_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "input_without_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "input_without_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "link_without_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "usablenet-aqa-auto",
+        "engine_version": "2026.03 1.0.2",
+        "rule_id": "summary_without_computed_name",
+        "via": "act-implementation",
+        "act_rule_id": "2t702h",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "2t702h-test",
+        "via": "act-implementation",
+        "act_rule_id": "2t702h",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "307n5z-test",
+        "via": "act-implementation",
+        "act_rule_id": "307n5z",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "4b1c6c-test",
+        "via": "act-implementation",
+        "act_rule_id": "4b1c6c",
+        "consistency": "partial"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "59796f-test",
+        "via": "act-implementation",
+        "act_rule_id": "59796f",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "6cfa84-test",
+        "via": "act-implementation",
+        "act_rule_id": "6cfa84",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "97a4e1-test",
+        "via": "act-implementation",
+        "act_rule_id": "97a4e1",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "c487ae-test",
+        "via": "act-implementation",
+        "act_rule_id": "c487ae",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "cae760-test",
+        "via": "act-implementation",
+        "act_rule_id": "cae760",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "e086e5-test",
+        "via": "act-implementation",
+        "act_rule_id": "e086e5",
+        "consistency": "complete"
+      },
+      {
+        "engine": "webmate-accessibility-workbench",
+        "engine_version": null,
+        "rule_id": "m6b1q3-test",
+        "via": "act-implementation",
+        "act_rule_id": "m6b1q3",
+        "consistency": "complete"
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "area-alt",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-allowed-attr",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-braille-equivalent",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-command-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-conditional-attr",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-deprecated-role",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-hidden-body",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-hidden-focus",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-input-field-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-prohibited-attr",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-required-attr",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-roles",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-tab-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-toggle-field-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-tooltip-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-valid-attr",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "aria-valid-attr-value",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "button-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "duplicate-id-aria",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "frame-title",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "frame-title-unique",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "input-button-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "input-image-alt",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "label",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "link-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "nested-interactive",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "select-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      },
+      {
+        "engine": "axe-core",
+        "engine_version": "4.14.0",
+        "rule_id": "summary-name",
+        "via": "engine-tags",
+        "act_rule_id": null,
+        "consistency": null
+      }
+    ],
+    "automation": "partial",
+    "automation_basis": {
+      "rule": "decision-table-v1",
+      "act_rules": [
+        "2t702h",
+        "307n5z",
+        "59796f",
+        "6cfa84",
+        "97a4e1",
+        "c487ae",
+        "e086e5",
+        "m6b1q3"
+      ],
+      "tools": [
+        "accesslint-core",
+        "alfa",
+        "axe-core",
+        "equal-access",
+        "qualweb",
+        "sortsite",
+        "total-validator",
+        "total-validator-browser",
+        "usablenet-aqa-auto",
+        "webmate-accessibility-workbench"
+      ]
+    },
+    "manual_test": null,
+    "null_reasons": {
+      "engines[engine=webmate-accessibility-workbench].engine_version": "The ACT implementation report webmate-accessibility-workbench.json at the pinned commit has no version field.",
+      "engines[via=engine-tags].act_rule_id": "Rows from engine tags come from the EN-9.x.y.z tag in the engine rule file, not from an ACT implementation report.",
+      "engines[via=engine-tags].consistency": "Consistency is only measured in ACT implementation reports; engine tags are vendor metadata without a consistency result.",
+      "manual_test": "Manual test steps are a planned milestone and are not part of the seed."
+    },
+    "sources": [
+      {
+        "name": "W3C ACT rules (w3c/wcag-act-rules)",
+        "url": "https://github.com/w3c/wcag-act-rules",
+        "commit_or_version": "f39b7f81cee60efe1f23205a893e031a7a02821b",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "axe-core (dequelabs/axe-core)",
+        "url": "https://github.com/dequelabs/axe-core",
+        "commit_or_version": "v4.14.0",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "WCAG 2.1 success criteria (W3C wcag.json)",
+        "url": "https://www.w3.org/WAI/WCAG21/wcag.json",
+        "commit_or_version": "2026-09-03;sha256=fc9f2e8a94421fc305dced3ec4020fde088572493d44da70789ceb6f775bb4d7",
+        "retrieved": "2026-10-14"
+      },
+      {
+        "name": "ETSI EN 301 549 V3.2.1",
+        "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf",
+        "commit_or_version": "V3.2.1;2021-03",
+        "retrieved": "2026-10-14"
+      }
+    ],
+    "review": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "notes": null
+    }
+  }
+]
