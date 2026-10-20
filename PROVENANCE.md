@@ -5,9 +5,10 @@
 The following files were written with AI assistance (Claude Opus, through Claude Code),
 directed and checked by a human maintainer:
 
-- `README.md`, `SOURCES.md`, `PROVENANCE.md`, `CONTRIBUTING.md`
+- `README.md`, `SOURCES.md`, `PROVENANCE.md`, `CONTRIBUTING.md`, `AI-LOG.md`
 - `LICENSE` (the standard MIT text, with the project copyright line)
 - `.gitignore`, `package.json`
+- `.github/workflows/test.yml`
 - `schema/entry.schema.json`
 - `sources.lock.json` (the pins were looked up in the upstream repositories and sites on
   2026-10-14 and are verified by the build on every run)
@@ -20,6 +21,8 @@ Not written with AI assistance:
   https://creativecommons.org/licenses/by/4.0/legalcode.txt, unmodified.
 
 Every commit made with AI assistance ends with the trailer `Assisted-by: Claude Opus (AI)`.
+The session logs do not record the model version. [AI-LOG.md](AI-LOG.md) lists each
+AI-assisted session with its date, tool, model and resulting commits.
 
 ## Dataset values
 
@@ -36,3 +39,5 @@ Each entry is reviewed by a human maintainer against its sources before its
 `review.status` becomes `reviewed`. The build script never sets `reviewed`; only
 `npm run review -- <clause> "<notes>"`, run by the maintainer, does. When a later build
 changes any derived value of an entry, its review is reset to `pending`.
+
+Current state: 10 of the 10 entries in `data/en301549-web.json` are reviewed.
