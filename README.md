@@ -4,7 +4,7 @@ An open, vendor-neutral dataset that maps the web-relevant clauses of the Europe
 standard EN 301 549 to WCAG success criteria, W3C ACT rules and the rules of automated
 accessibility engines, with an automation status per clause.
 
-**Status: seed, 10 example entries.** This is not the full dataset. It shows the schema,
+**Status: seed, 10 example entries, 10 of 10 reviewed by the maintainer.** This is not the full dataset. It shows the schema,
 the licences, the provenance and a reproducible build on a small, rule-selected sample.
 See the [roadmap](#roadmap) for what is planned.
 
